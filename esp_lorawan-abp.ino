@@ -30,8 +30,14 @@ void os_getDevKey (u1_t* buf) {
     memcpy(buf, DEVKEY, 16);
 }
 
-// Pin mapping for RFM95
-
+// Pin mapping for RFM95 and nodeMCU-32s
+// SS = 5;
+// MOSI = 23;
+// MISO = 19;
+// SCK = 18;
+// RST = 14;
+// DIO1 = 26;
+// DIO2 = 33
 const lmic_pinmap lmic_pins = {
     .nss = 5,
     .rxtx = LMIC_UNUSED_PIN,
