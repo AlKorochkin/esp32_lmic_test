@@ -9,7 +9,7 @@
 #include <hal/hal.h>
 #include <SPI.h>
 
-#include "arduino_secrets.h"
+#include "esp_secrets.h"
 
 //---------------------------------------------------------
 // APPLICATION CALLBACKS
