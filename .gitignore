@@ -33,3 +33,6 @@
 
 # Secrets
 esp_secrets.h
+
+# VSCode configs
+.vscode
