@@ -133,7 +133,7 @@ void setup() {
     // Set static session parameters. Instead of dynamically establishing a session
     // by joining the network, precomputed session parameters are be provided.
     Serial.println("LMIC SetSession");
-    LMIC_setSession (0x1, DEVADDR, (uint8_t*)DEVKEY, (uint8_t*)ARTKEY);
+    LMIC_setSession (0x1, DEVADDR, (uint8_t*)DEVKEY, (uint8_t*)ARTKEY); // (0x1, DEVADDR, (uint8_t*)DEVKEY, (uint8_t*)ARTKEY);
     Serial.println("LMIC setAdrMod");
     // Disable data rate adaptation
     LMIC_setAdrMode(0);
